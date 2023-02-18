@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for websocket",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "websocket"
+  ],
+  "author": "Bruno PM",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.12.1"
+  }
+}
