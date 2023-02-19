@@ -8,7 +8,11 @@ socket.onmessage = ({ data }) => {
   console.log("Message from server: ", data);
 };
 
-document.querySelector("button").onclick = () => {
+document.getElementById("send").onclick = () => {
   let message = document.querySelector("#message").value;
   socket.send(message);
+};
+
+document.getElementById("close").onclick = () => {
+  socket.close();
 };
