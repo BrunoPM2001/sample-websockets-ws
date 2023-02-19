@@ -5,7 +5,6 @@ socket.onmessage = ({ data }) => {
   let newElement = document.createElement("li");
   newElement.textContent = data;
   list.appendChild(newElement);
-  console.log("Message from server: ", data);
 };
 
 document.getElementById("send").onclick = () => {
